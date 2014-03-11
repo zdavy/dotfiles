@@ -1,0 +1,25 @@
+[alias]
+  co = checkout
+  up = !git fetch origin && git pull --rebase origin/master
+  l = log --pretty=colored
+  b = branch -a
+  st = status
+[color]
+  ui = auto
+[commit]
+  template = ~/.gitconfigs/message
+[core]
+  excludesfile = ~/.gitconfigs/ignore
+  autocrlf = input
+[merge]
+  ff = false
+[pull]
+  ff = true
+[pretty]
+  colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+[push]
+  default = current
+[user]
+  username = zachmokahn
+[github]
+  user = zachmokahn

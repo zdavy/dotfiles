@@ -1,0 +1,4 @@
+" NERDTree settings
+let NERDTreeShowHidden = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeIgnore = ['\.git$', '_Spec*', 'bower_components', 'build', 'node_modules', 'tmp', '.gitignore$', 'brunch-config.*', 'package.json', 'bower.json', 'target', 'bundle', 'rake', 'Gemfile.lock', 'config.ru', '^log.*$', '^bin.*$', '^coverage.*$', '^\..*$', '^public.*$', '^Rakefile$']

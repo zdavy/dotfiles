@@ -1,0 +1,5 @@
+" Select All
+noremap <Leader>sa ggVG
+
+" copy to end of line
+nnoremap Y Du
