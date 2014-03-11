@@ -1,0 +1,8 @@
+source ~/.vim/keymaps/keymap.movement
+source ~/.vim/keymaps/keymap.dotfiles
+source ~/.vim/keymaps/keymap.cutcopypaste
+source ~/.vim/keymaps/keymap.search
+source ~/.vim/keymaps/keymap.nerdtree
+
+" FileType Specific Keymaps: Ruby
+au BufRead,BufNewFile *.rb source ~/.vim/keymaps/keymap.rb.vim

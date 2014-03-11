@@ -1,0 +1,10 @@
+" colorscheme
+colorscheme railscasts
+set background=light
+
+" color index 81 column
+set colorcolumn=81
+
+"" use terminal background color
+set t_Co=256
+highlight LineNr    ctermbg=NONE

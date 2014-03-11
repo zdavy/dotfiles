@@ -1,0 +1,5 @@
+# git
+alias cob="git co -b"
+alias co="git co"
+alias amen="git add --all && git commit --amend --no-edit"
+alias amend="git add --all && git commit --amend --no-edit"

@@ -1,0 +1,19 @@
+" Quicker window movement
+nnoremap <c-h> <C-w>h
+nnoremap <c-l> <C-w>l
+nnoremap <Leader>j <C-w>j
+nnoremap <Leader>k <C-w>k
+
+" Quicker tab jumping
+nnoremap <C-j> :tabprevious<CR>
+nnoremap <C-k> :tabnext<CR>
+inoremap <C-j> <Esc>:tabprevious<CR>
+inoremap <C-k> <Esc>:tabnext<CR>
+
+" tab rearanging
+nnoremap <Leader><C-j> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
+nnoremap <Leader><C-k> :execute 'silent! tabmove ' . tabpagenr()<CR>
+
+" leave and toggle relativenumber
+inoremap <C-c> <Esc>
+nnoremap <Leader>q :q<CR>
