@@ -1,0 +1,6 @@
+!bin
+workbench.xmi
+secret*
+private*
+*.private
+*.secret

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curlj() {
+  local url=$*
+  curl $url | python -m json.tool
+}
+

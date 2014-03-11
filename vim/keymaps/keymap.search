@@ -1,0 +1,3 @@
+" find the word, under your cursor
+nnoremap <C-F><C-F> :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap <C-F><C-E> :%s/<C-R><C-W>/
