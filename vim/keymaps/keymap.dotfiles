@@ -1,2 +1,2 @@
 " ctrlP dotfile search
-noremap <Leader>df :CtrlP ~/.dotfiles<CR>
+noremap <Leader>df :CtrlP ~/dotfiles<CR>

@@ -7,3 +7,4 @@ source ~/.vim/configs/config.powerline
 source ~/.vim/configs/config.space
 source ~/.vim/configs/config.vim
 source ~/.vim/configs/config.colors
+source ~/.vim/configs/config.omnisharp
