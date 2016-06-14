@@ -1,0 +1,39 @@
+source ~/.nvim.d/bundles.vim
+filetype plugin indent on
+
+syntax on
+set number
+set colorcolumn=80
+
+set incsearch
+set hlsearch
+set smartcase
+
+set hidden
+set backspace=2
+set nofoldenable
+set nobackup
+set nowritebackup
+set noswapfile
+
+set winwidth=90
+set winminwidth=15
+set scrolloff=5
+
+set laststatus=2
+set ruler
+
+set list listchars=tab:»\ ,trail:·
+
+set textwidth=0 tabstop=2 shiftwidth=2 softtabstop=2
+set smartindent expandtab
+
+nmap , \
+
+nnoremap <silent> <Leader><C-d> :EasyTreeToggle<CR>
+
+let g:airline_powerline_fonts = 0
+set background=dark
+colorscheme lucius
+
+let g:ctrlp_user_command = [ '.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f' ]

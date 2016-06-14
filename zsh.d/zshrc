@@ -1,0 +1,10 @@
+autoload -U compinit
+autoload colors
+compinit -u
+colors
+
+source ~/.zsh.d/env.zsh
+source ~/.zsh.d/options.zsh
+source ~/.zsh.d/functions.zsh
+source ~/.zsh.d/prompt.zsh
+source ~/.zsh.d/alias.zsh

@@ -1,0 +1,20 @@
+[alias]
+  co = checkout
+  st = status
+  l = log --pretty=colored
+[color]
+  ui = auto
+[merge]
+  ff = false
+[pull]
+  ff = true
+[pretty]
+  colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+[push]
+  default = current
+[user]
+  name = Zachary Davy
+  email = zdavy@8thlight.com
+  username = zacharyjdavy
+[github]
+  user = zacharyjdavy

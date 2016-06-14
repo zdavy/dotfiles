@@ -1,0 +1,2 @@
+nvim.d/autoload/*
+!nvim.d/autoload/Vundle.vim
